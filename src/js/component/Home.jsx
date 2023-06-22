@@ -7,7 +7,8 @@ import BootstrapCard from "./BootstrapCard";
 import Jumbotron from "./Jumbotron";
 import Navbar from "./Navbar";
 
-//create your first component
+
+//Archmyth
 const Home = () => {
 	return (
 		<div className="text-center">
