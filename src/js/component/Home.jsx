@@ -4,6 +4,8 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Footer from "./Footer";
 import BootstrapCard from "./BootstrapCard";
+import Jumbotron from "./Jumbotron";
+import Navbar from "./Navbar";
 
 //create your first component
 const Home = () => {
