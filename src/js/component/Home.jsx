@@ -2,8 +2,8 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import BootstrapCard from "./BootstrapCard";
 import Footer from "./Footer";
+import BootstrapCard from "./BootstrapCard";
 
 //create your first component
 const Home = () => {
@@ -11,8 +11,8 @@ const Home = () => {
 		<div className="text-center">
 			< Navbar/>
 			< Jumbotron/>
-		<div className="container d-flex">
-			< BootstrapCard/>
+		<div className="d-flex row justify-content-around">
+		<BootstrapCard/>
 		</div>
 			< Footer/>
 		</div>
